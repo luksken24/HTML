@@ -13,7 +13,7 @@
         Osakonna nr: <input type="number" name="dep" min="1" step="1"><br>
         Parool: <input type="password" name="pass"><br>
         Vaki teenus: 
-        <select>
+        <select name="service">
             <option value="0.59">odav 0,59€</option>
             <option value="1.59">keskmine 1,59€</option>
             <option value="2.59">kallis 2,59€</option>
@@ -22,10 +22,11 @@
         <input type="radio" name="role" value="Admin">administraator<br>
         <input type="radio" name="role" value="mode">mode<br>
         <input type="radio" name="role" value="user">user<br>
-        Nõustun tingimustega: <input type="checkbox" name="agree">
-
-
-
+        Nõustun tingimustega: <input type="checkbox" name="agree"><br>
+        enesetutvustus:<br>
+        <textarea name="bio" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="tühjenda välajd">
+        <input type="submit" value="saaada"><br>
 
         <input type="submit" value="saada"><br>
     </form>
