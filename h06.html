@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h6</title>
+</head>
+<body>
+    <h1>Vormide loomine</h1>
+    <form action="" method="get">
+        Kasutajanimi: <input type="text" name="usr" placeholder="max pikkus 6" maxlength="6"><br>
+        kursus: <input type="text" name="course" placeholder="max pikkus 3" maxlength="3"><br>
+        Osakonna nr: <input type="number" name="dep" min="1" step="1"><br>
+        Parool: <input type="password" name="pass"><br>
+        Vaki teenus: 
+        <select>
+            <option value="0.59">odav 0,59€</option>
+            <option value="1.59">keskmine 1,59€</option>
+            <option value="2.59">kallis 2,59€</option>
+        </select><br>
+        Roll:
+        <input type="radio" name="role" value="Admin">administraator<br>
+        <input type="radio" name="role" value="mode">mode<br>
+        <input type="radio" name="role" value="user">user<br>
+        Nõustun tingimustega: <input type="checkbox" name="agree">
+
+
+
+
+        <input type="submit" value="saada"><br>
+    </form>
+</body>
+</html>
